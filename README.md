@@ -58,7 +58,7 @@ For module GPS, see:
 - [Global Positioning System](./GPS.MD)
 
 For module IMU, see:
--[Inertial Measurement Unit](./Docs/IMU.MD)
+- [Inertial Measurement Unit](./Docs/IMU.MD)
 
 ## Releases
 
