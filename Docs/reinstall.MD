@@ -25,3 +25,8 @@ Data collection is facilitated by Rosbag.
 Moving forward it likely makes sense to use ROS2. If any data needs to be converted from ROS1:
 
 - [Rosbag conversion ROS to ROS2](https://docs.ros.org/en/noetic/api/ov_core/html/dev-ros1-to-ros2.html)
+
+
+Upon successful installation, continue to :
+
+- [Operating Procedure](/Docs/operating.MD)
