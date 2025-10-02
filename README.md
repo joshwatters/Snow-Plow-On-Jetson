@@ -8,7 +8,7 @@ Previous Competition Website: http://www.autosnowplow.com/welcome.html
 
 Previous Design: https://www.youtube.com/watch?v=uQ3A9CB2F4g
 
-Project Overview: [Project Overview](./Docs/overview.MD)
+Project Overview: [Project Overview](./Docs/Overview.MD)
 
 ### Documentation and resources
 
