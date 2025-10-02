@@ -2,35 +2,28 @@
 ## About SnowPlow
 
 
-Autonomous Snowplow:  Autonomous Snowplow is tasked with clearing a predetermined area of snow without any human input; they can only use algorithms, computer vision, and additional sensors. We recently rebuilt the drive train.
+Autonomous Snowplow:  Autonomous Snowplow is tasked with clearing a predetermined area of snow without any human input; we can only use algorithms, computer vision, and additional sensors. We recently rebuilt the drive train.
 
 Previous Competition Website: http://www.autosnowplow.com/welcome.html
 
 Previous Design: https://www.youtube.com/watch?v=uQ3A9CB2F4g
 
-More information on L4T docker images can be found here: 
 
-- [Nvidia L4T](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/l4t-ml?version=r36.2.0-py3) - detailed documentation on L4T
 
 ### Documentation and resources
-
-- [Reference docs](https://www.docs.limitx.click/) - detailed documentation for this open source project
-- [Flagship Platform](https://www.limitx.click/) - detailed information about "Limit"
-
-
-
-## Snow Plow features
-
-- most functionality can be viewed within the scripts contained in the [src](./src) folder.
-- For simplicity singular programming language "Python" was used for the program itself.
-- C++ was added for sensor package functionality to allow for arduino code-reusability (Examples included).
-- Code has been internally commented for ease of use.
 
   Documentation for implementation of Isaac Sim and Isaac Lab can be found at:
   https://docs.isaacsim.omniverse.nvidia.com/latest/installation/quick-install.html
   
   While documentation for standard Isaac Sim interfacing can be seen at:
   https://docs.isaacsim.omniverse.nvidia.com/latest/robot_simulation/index.html
+  
+## Snow Plow features
+
+- most functionality can be viewed within the scripts contained in the [src](./src) folder.
+- For simplicity singular programming language "Python" was used for the program itself.
+- C++ was added for sensor package functionality to allow for arduino code-reusability (Examples included).
+- Code has been internally commented for ease of use.
 
 ## Usage
 
@@ -56,6 +49,7 @@ In the event of a catastrophic failure and a complete reinstall is nessecary, se
 
 For general operating procedures, see:
 - [Operating Procedure](/Docs/operating.MD)
+- 
 ## Releases
 
 **The README for the `1.x` version is on the [v1.x](./tree/v1.x) branch.**
