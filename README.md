@@ -21,7 +21,7 @@ Project Overview: [Project Overview](./Docs/Overview.MD)
 ## Snow Plow features
 
 - most functionality can be viewed within the scripts contained in the [src](./src) folder.
-- For simplicity singular programming language "Python" was used for the program itself.
+- For simplicity singular programming language "Python" was used for most programming.
 - C++ was added for sensor package functionality to allow for arduino code-reusability (Examples included).
 - Code has been internally commented for ease of use.
 
