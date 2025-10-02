@@ -30,7 +30,7 @@ Previous Design: https://www.youtube.com/watch?v=uQ3A9CB2F4g
 If you have GIT configured, quickly deploy using `cmd`:
 
 ```bash
-git clone https://github.com/limitx1/LimitXSoftware/
+git clone https://github.com/ISURobotics/SnowPlow25/
 ```
 
 ```bash
