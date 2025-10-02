@@ -4,11 +4,14 @@
 
 Autonomous Snowplow:  Autonomous Snowplow is tasked with clearing a predetermined area of snow without any human input; we can only use algorithms, computer vision, and additional sensors. We recently rebuilt the drive train.
 
-Previous Competition Website: [Competition Website](http://www.autosnowplow.com/welcome.html)
+Previous Competition Website: 
+- [Competition Website](http://www.autosnowplow.com/welcome.html)
 
-Previous Design: [Previous Design](https://www.youtube.com/watch?v=uQ3A9CB2F4g)
+Previous Design: 
+- [Previous Design](https://www.youtube.com/watch?v=uQ3A9CB2F4g)
 
-Project Overview: [Project Overview](./Docs/Overview.MD)
+Project Overview: 
+- [Project Overview](./Docs/Overview.MD)
 
 ### Documentation and resources
 
