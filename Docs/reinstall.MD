@@ -9,11 +9,14 @@ Ros2 Installation:
 
 Vision Systems:
 Sick Lidar w/ imu
-[Getting Started with the Sick 511 Video Series](https://support.sick.com/sick-knowledgebase/article/?code=KA-09385)
+- [Getting Started with the Sick 511 Video Series](https://support.sick.com/sick-knowledgebase/article/?code=KA-09385)
 
 
 Path Planning:
-Path planning is facilitated
+Path planning is facilitated by the previous generations: 
+
+- [SnowPlow2021](https://github.com/ISURobotics/SnowPlow2021)
+
 
 Data Collection:
 Data collection is facilitated by Rosbag.
