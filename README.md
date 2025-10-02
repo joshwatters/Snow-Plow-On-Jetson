@@ -49,7 +49,7 @@ In the event of a catastrophic failure and a complete reinstall is nessecary, se
 
 For general operating procedures, see:
 - [Operating Procedure](/Docs/operating.MD)
-- 
+- [Lidar](/Docs/lidar.MD)
 ## Releases
 
 **The README for the `1.x` version is on the [v1.x](./tree/v1.x) branch.**
