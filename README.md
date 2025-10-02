@@ -8,14 +8,14 @@ Previous Competition Website: http://www.autosnowplow.com/welcome.html
 
 Previous Design: https://www.youtube.com/watch?v=uQ3A9CB2F4g
 
-
+Project Overview: [Project Overview](./Docs/overview.MD)
 
 ### Documentation and resources
 
-  Documentation for implementation of Isaac Sim and Isaac Lab can be found at:
+  Documentation for implementation of Isaac Lab can be found at:
   https://docs.isaacsim.omniverse.nvidia.com/latest/installation/quick-install.html
   
-  While documentation for standard Isaac Sim interfacing can be seen at:
+  While documentation for standard Isaac Sim can be seen at:
   https://docs.isaacsim.omniverse.nvidia.com/latest/robot_simulation/index.html
   
 ## Snow Plow features
