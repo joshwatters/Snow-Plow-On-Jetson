@@ -13,10 +13,10 @@ Vision Systems:
 
 Sick Lidar w/ imu
 - [Getting Started with the Sick 511 Video Series](https://support.sick.com/sick-knowledgebase/article/?code=KA-09385)
-
+- [Lidar](/Docs/lidar.MD)
 
 Path Planning:
-Path planning is facilitated by the previous generations: 
+Path planning is facilitated by the previous generations git repo: 
 
 - [SnowPlow2021](https://github.com/ISURobotics/SnowPlow2021)
 
