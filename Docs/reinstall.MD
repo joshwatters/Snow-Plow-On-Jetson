@@ -30,7 +30,7 @@ Path planning is facilitated by the previous generations git repo:
 
 Data Collection:
 Data collection is facilitated by Rosbag.
-Moving forward it likely makes sense to use ROS2. If any data needs to be converted from ROS1:
+Moving forward it likely makes sense to use MCAP and transition any existing Rosbags. If any data needs to be converted from ROS1:
 
 - [Rosbag conversion ROS to ROS2](https://docs.ros.org/en/noetic/api/ov_core/html/dev-ros1-to-ros2.html)
 
