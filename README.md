@@ -58,7 +58,7 @@ For general operating procedures, see:
 - [Lidar](/Docs/lidar.MD)
 
 For module GPS, see:
-- [Global Positioning System](./GPS.MD)
+- [Global Positioning System](.Docs/GPS.MD)
 
 For module IMU, see:
 - [Inertial Measurement Unit](./Docs/IMU.MD)
