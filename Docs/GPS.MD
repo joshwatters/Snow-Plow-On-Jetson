@@ -5,13 +5,10 @@ The GPS used for this project is:
 - [Product Specs](https://www.sparkfun.com/sparkfun-gps-rtk-sma-kit.html)
 
 There are provided code examples:
-- [GPS Code](https://support.sick.com/sick-knowledgebase/article/?code=KA-09838)
+- [GPS Hookup Guide](https://learn.sparkfun.com/tutorials/gps-rtk2-hookup-guide)
 
-Ros1 and Ros2 Driver:
-- [ROS Driver](https://github.com/SICKAG/sick_scan_xd)
-
-PicoScan:
-- [PicoScan](https://support.sick.com/sick-knowledgebase/article/?code=KA-09379)
+Our implementation:
+- [Datasheet](../Docs/ZED-F9P-02B_DataSheet_UBX-21023276.pdf)
 
 Our implementation:
 - [RobotGPS.py](../src/RobotGPS.py)
