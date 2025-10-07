@@ -15,6 +15,3 @@ Our implementation:
 - [GPS_Node.py](../src/GPS_Node.py)
 
 
-
-
-https://www.sparkfun.com/sparkfun-gps-rtk-sma-kit.html
