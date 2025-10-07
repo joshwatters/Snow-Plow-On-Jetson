@@ -1,3 +1,6 @@
+# Autonomous Snowplow - Lidar
+## About Lidar
+
 The lidar used for this project is:
 - [Product Specs](https://www.sick.com/ag/en/products/lidar-and-radar-sensors/lidar-sensors/lms5xx/lms511-10100-pro/p/p215941)
 
