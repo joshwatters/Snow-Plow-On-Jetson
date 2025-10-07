@@ -13,7 +13,7 @@ Previous Design:
 Project Overview: 
 - [Project Overview](./Docs/Overview.MD)
 
-### Documentation and resources
+## Documentation and resources
 
   Documentation for implementation of Isaac Lab can be found at:
   https://docs.isaacsim.omniverse.nvidia.com/latest/installation/quick-install.html
