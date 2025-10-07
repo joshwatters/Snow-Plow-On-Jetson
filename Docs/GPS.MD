@@ -8,7 +8,7 @@ There are provided code examples:
 - [GPS Hookup Guide](https://learn.sparkfun.com/tutorials/gps-rtk2-hookup-guide)
 
 Our implementation:
-- [Datasheet](../Docs/ZED-F9P-02B_DataSheet_UBX-21023276.pdf)
+- [Datasheet](./ZED-F9P-02B_DataSheet_UBX-21023276.pdf)
 
 Our implementation:
 - [RobotGPS.py](../src/RobotGPS.py)
