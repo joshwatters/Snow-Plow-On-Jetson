@@ -2,7 +2,7 @@
 ## About SnowPlow
 
 
-Autonomous Snowplow:  Autonomous Snowplow is tasked with clearing a predetermined area of snow without any human input; we can only use algorithms, computer vision, and additional sensors. We recently rebuilt the drive train.
+Autonomous Snowplow:  Autonomous Snowplow is tasked with clearing a pre-determined area of snow without any human input; we can only use algorithms, computer vision, and additional sensors. We recently rebuilt the drive train.
 
 Previous Competition Website: 
 - [Competition Website](http://www.autosnowplow.com/welcome.html)
