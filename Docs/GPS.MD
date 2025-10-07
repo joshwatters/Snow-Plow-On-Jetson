@@ -11,6 +11,9 @@ Our implementation:
 - [Datasheet](./ZED-F9P-02B_DataSheet_UBX-21023276.pdf)
 
 Our implementation:
+- [Schematic](./SparkFun-GPS-RTK-SMA-ZED-F9P-Schematic.pdf)
+
+Our implementation:
 - [RobotGPS.py](../src/RobotGPS.py)
 - [GPS_Node.py](../src/GPS_Node.py)
 
