@@ -1,11 +1,14 @@
 Last communication from the previous team:
 
+Issue 24:
+
 Right now, our GPS node has to have our starting orientation programmed in in order to know which way is positive X.
 
 Using the magnetometer data from the IMU, we should be able to figure this out on the fly and do it more accurately.
 
 We're also getting a 3-axis compass sensor, which might be more accurate than the IMU for this. Once we have that sensor, we can test it against the IMU and see which one is more accurate for this.
 
+Issue 27: This is a more...physical issue, but we should make a turntable that we can mount the IMU on and spin around. This can basically be a block of wood on a swivel. The goal is to see whether the IMU still gets an accurate direction after spinning for 20-30 rotations in a controlled environment. When this is done, I want a measured error value in degrees off the starting position
 
 I agree that the imu, gps, lidar and potentially new 3 axis sensor logic are all closely intertwined and we should consider as a group and clearly define what the goal is for functionality. This logic could spill over into the traversal logic and any startup sequence we are considering.
 
