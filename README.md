@@ -55,7 +55,7 @@ For General Operating Procedures, see:
 - [Operating Procedure](./Docs/operating.MD)
 
 For Pathing, see:
-- [Operating Procedure](./Docs/operating.MD)
+- [Pathing](./Docs/pathing.MD)
 
 For Lidar, see:
 - [Lidar](./Docs/lidar.MD)
