@@ -51,10 +51,13 @@ In the event of a catastrophic failure and a complete re-install is nessecary, s
 
 - [Reinstall](./Docs/reinstall.MD)
 
-For general operating procedures, see:
+For General Operating Procedures, see:
 - [Operating Procedure](./Docs/operating.MD)
 
-For general operating procedures, see:
+For Pathing, see:
+- [Operating Procedure](./Docs/operating.MD)
+
+For Lidar, see:
 - [Lidar](./Docs/lidar.MD)
 
 For module GPS, see:
