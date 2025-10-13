@@ -35,3 +35,8 @@ Remember to update ssh keys as well
 Lidar IPs:  
 SICK LMS511: 192.168.1.2  
 SICK TiM551: 192.168.1.3
+
+
+
+Last communication from previous team is: We have the shell script that launches all the processes we need normally, but a ROS launch file is the "correct" way to do this. Once we have this , we should be able to run "ros2 launch SnowPlow2021" and everything will start.
+
