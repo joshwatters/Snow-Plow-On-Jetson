@@ -16,6 +16,11 @@ Upon successful installation of 22.04 for Jetson, proceed to the ROS2 humble ins
 
 - [ROS2](https://docs.ros.org/en/humble/Installation.html)
 
+I feel like we should expand on this and share what we know collectively. The above is the process for installation of ROS2. Generally, after installation you can go through a tutorial series which would familiarize you with colcon build. I am wondering if we got that far after installation. This is detailed here and will likely help close one issue. 
+
+-[Colcon Build](https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html)
+
+
 Vision Systems:
 
 Sick Lidar w/ imu
