@@ -20,4 +20,4 @@ cat /dev/ttyUSB0
 Using the above will output the gyro values over serial and is easy to grab in python.
 Previous team used a 9dof gyro. The one we have is a $60.00 sensor. Reading about it on reddit seems to imply cheaper better solutions are available and there are reports of others having issues as well. If we do have issues with it, we could consider the above 6dof. If time permits I can see about similiar code for a 9 dof $22.00 sensor: 
 
--[Potential New Sensor](https://www.digikey.com/en/products/detail/sparkfun-electronics/15335/10279707?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgE00iv_QijrDf124GrrtlxN&gclid=CjwKCAjwxrLHBhA2EiwAu9EdM8XNbWB1JnQKSxIMD3vuL56hVKuiMgqUN77YJCvdaj0UnhhbgpUsdRoCoDQQAvD_BwE).
+- [Potential New Sensor](https://www.digikey.com/en/products/detail/sparkfun-electronics/15335/10279707?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgE00iv_QijrDf124GrrtlxN&gclid=CjwKCAjwxrLHBhA2EiwAu9EdM8XNbWB1JnQKSxIMD3vuL56hVKuiMgqUN77YJCvdaj0UnhhbgpUsdRoCoDQQAvD_BwE).
