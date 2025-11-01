@@ -29,12 +29,7 @@ In reading this:
 
 - [Connect to a Correction Source](https://learn.sparkfun.com/tutorials/gps-rtk2-hookup-guide/connecting-the-zed-f9p-to-a-correction-source)
 - [Setting up RTK2GO](http://rtk2go.com/how-to-connect/)
-- [GPS map](http://monitor.use-snip.com/map)
 - [GPS info](http://monitor.use-snip.com/?hostUrl=rtk2go.com&port=2101)
-
-
-- [GPS map](<script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3L9kqhvMEK3kIxEzICodLhmYvvLidMbA&amp;callback=initMap">
-    </script>)
 
 
 
