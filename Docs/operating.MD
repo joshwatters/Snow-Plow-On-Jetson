@@ -1,6 +1,6 @@
 ## Replacement process as of 11/1/25
-- [Init.py](./RobotGPS.py): initializes ROS core, ROS lidar functionality/Hector SLAM, and rosserial for arduino communication.
-: executes ```main.py``` in this directory's ```src``` folder.  
+ : - [Init.py](./RobotGPS.py) sources ROS2, ROS2 lidar functionality/Hector SLAM, and rosserial for arduino communication.
+: - [main.py](./src/main.py) executes ```main.py``` in this directory's ```src``` folder.  
 : executes the above 2 functions in sequence, initializes then starts the plow's movement.  
 : ```pkill``` all the processes spawned by the above scripts.
 
