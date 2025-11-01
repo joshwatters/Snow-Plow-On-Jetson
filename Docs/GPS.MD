@@ -33,4 +33,8 @@ In reading this:
 - [GPS info](http://monitor.use-snip.com/?hostUrl=rtk2go.com&port=2101)
 
 
+- [GPS map](<script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3L9kqhvMEK3kIxEzICodLhmYvvLidMbA&amp;callback=initMap">
+    </script>)
+
+
 
