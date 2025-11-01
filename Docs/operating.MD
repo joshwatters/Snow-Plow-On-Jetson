@@ -1,6 +1,6 @@
 ## Replacement process as of 11/1/25
-```initplow``` : [Init.py](./RobotGPS.py) sources ROS2, ROS2 lidar functionality/Hector SLAM, and rosserial for arduino communication.
-```startplow``` : executes [main.py](./src/main.py).  
+```initplow``` : ``` [Init.py](./RobotGPS.py) ``` sources ROS2, ROS2 lidar functionality/Hector SLAM, and rosserial for arduino communication.
+```startplow``` : executes ``` [main.py](./src/main.py) ```.  
 ```runplow``` : executes the above 2 functions in sequence, initializes then starts the plow's movement.  
 ```stopplow``` : ```pkill``` all the processes spawned by the above scripts.
 
