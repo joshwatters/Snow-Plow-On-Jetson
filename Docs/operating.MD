@@ -1,8 +1,8 @@
 ## Replacement process as of 11/1/25
- : - [Init.py](./RobotGPS.py) sources ROS2, ROS2 lidar functionality/Hector SLAM, and rosserial for arduino communication.
-: - [main.py](./src/main.py) executes ```main.py``` in this directory's ```src``` folder.  
-: executes the above 2 functions in sequence, initializes then starts the plow's movement.  
-: ```pkill``` all the processes spawned by the above scripts.
+```initplow``` : [Init.py](./RobotGPS.py) sources ROS2, ROS2 lidar functionality/Hector SLAM, and rosserial for arduino communication.
+```startplow``` : executes [main.py](./src/main.py).  
+```runplow``` : executes the above 2 functions in sequence, initializes then starts the plow's movement.  
+```stopplow``` : ```pkill``` all the processes spawned by the above scripts.
 
 ## The below information appears to pertain to ROS1 not ROS2 and should likely be removed as deprecated. The reason is roscore and roslaunch are not the correct commands for running the commands in ros2. Roscore is not a supported method in ros2 as nodes have a new method of discovery and 
 
