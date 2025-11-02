@@ -4,9 +4,6 @@
 The lidar used for this project is:
 - [Product Specs](https://www.sick.com/ag/en/products/lidar-and-radar-sensors/lidar-sensors/lms5xx/lms511-10100-pro/p/p215941)
 
-There are provided code examples:
-- [Sick Code Examples](https://support.sick.com/sick-knowledgebase/article/?code=KA-09838)
-
 Ros1 and Ros2 Driver:
 - [ROS Driver](https://github.com/SICKAG/sick_scan_xd)
 
@@ -21,6 +18,22 @@ Installation is:
 ```
 sudo apt update
 sudo apt-get install ros-humble-sick-scan-xd
+
+# source the environment
+source ./install/setup.bash
+
+# check the demo
+ros2 run sick_scan_ros2_example sick_scan_ros2_example --ros-args -p topics:=sick_tim_5xx
+
+# then run a file of your choice
+ros2 run sick_scan_xd sick_generic_caller ./src/sick_scan_xd/launch/<launchfile>
+
+# check running services and topics in a new terminal
+source ./install/setup.bash
+
+#then
+ros2 service list
+ros2 topic list
 ```
 
 The last communication from the previous team is this: 
