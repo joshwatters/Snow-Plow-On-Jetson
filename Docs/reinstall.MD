@@ -1,10 +1,6 @@
 Installation:
 
-In the event of a need for a complete reinstallation, the following process will allow for faster status updates.
-At the time of this writing, 10/2/25, Humble Hawksbill was a supported ROS2 installation on Ubuntu 22.04. IMPORTANT : This changes regularly and care 
-should be taken when selecting ROS2 version to ensure compatibility with the latest version of Lidar and Jetson Ubuntu version. Installation of an 
-unsupported version can result in significant time delays. 22.04 with humble was used in all examples contained within this repository.
-
+In the event of a need for a complete reinstallation, the following process should help.
 
 The Jetson Nano getting started guide is located here: 
 
