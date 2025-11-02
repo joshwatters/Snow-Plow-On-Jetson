@@ -31,7 +31,7 @@ ros2 run sick_scan_xd sick_generic_caller ./src/sick_scan_xd/launch/<launchfile>
 # check running services and topics in a new terminal
 source ./install/setup.bash
 
-#then
+# then
 ros2 service list
 ros2 topic list
 ```
