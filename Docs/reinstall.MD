@@ -14,18 +14,23 @@ Ros2 Installation:
 
 Upon successful installation of 22.04 for Jetson, proceed to the ROS2 humble installation:
 
-- [ROS2](https://docs.ros.org/en/humble/Installation.html)
-
-I feel like we should expand on this and share what we know collectively. The above is the process for installation of ROS2. Generally, after installation you can go through a tutorial series which would familiarize you with colcon build. I am wondering if we got that far after installation. This is detailed here and will likely help close one issue. 
-
-- [Colcon Build](https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html)
-
+- [ROS2](https://docs.ros.org/en/humble/Installation.html) 
+- Go through talker and listener to confirm ROS2 install is complete. ^^
+- Install the Colcon Build Packages you want: Lidar, Slam toolbox, Nav2, turtlebot etc. 
+- [Info About Colcon Build](https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html)
 
 Vision Systems:
 
 Sick Lidar w/ imu
 - [Getting Started with the Sick 511 Video Series](https://support.sick.com/sick-knowledgebase/article/?code=KA-09385)
 - [Lidar](/Docs/lidar.MD)
+
+Slam Toolbox
+- [Slam](/Docs/slam.MD)
+
+Nav 2
+- [Nav 2](/Docs/nav2.MD)
+
 
 Path Planning:
 Path planning is facilitated by the previous generations git repo: 
