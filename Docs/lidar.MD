@@ -16,6 +16,12 @@ PicoScan:
 Our implementation:
 - [Lidar.py](../src/Lidar.py)
 
+Installation is: 
+
+```
+sudo apt update
+sudo apt-get install ros-humble-sick-scan-xd
+```
 
 The last communication from the previous team is this: 
 
