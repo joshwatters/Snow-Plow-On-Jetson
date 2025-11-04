@@ -7,11 +7,12 @@ This is actual footage from our gps running on windows. On linux we read the dat
 
 <img src="./GPSGIF.gif" width="720" height="486" />
 
-- [Sample Output Text](../src/SampleOutput.txt)
+- [Sample Output Text](../src/SampleUCenterLog.txt)
 
 Reading from serial in python looks like this:
 
-- [gps.py](.gps.py)
+- [gps.py](../src/gps.py)
+- [GPS Output](../src/gps.txt)
 
 ### The GPS used for this project is:
 
