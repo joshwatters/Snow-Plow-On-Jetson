@@ -1,7 +1,7 @@
 # Autonomous Snowplow - GPS
 ## About GPS
 
-## At a glance:
+### At a glance:
 
 This is actual footage from our gps running on windows. On linux we read the data from python.
 
