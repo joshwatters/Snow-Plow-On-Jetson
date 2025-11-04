@@ -3,6 +3,8 @@
 
 # At a glance:
 
+This is actual footage from our gps running on windows. On linux we read the data from python.
+
 <img src="./GPSGIF.gif" width="720" height="486" />
 
 - [Sample Output Text](../src/SampleOutput.txt)
