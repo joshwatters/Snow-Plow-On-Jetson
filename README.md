@@ -11,7 +11,7 @@ Previous Design:
 - [Previous Design](https://www.youtube.com/watch?v=uQ3A9CB2F4g)
 
 Project Overview: 
-- [Project Overview](./Docs/Overview.MD)
+- [Project Overview](./docs/Overview.MD)
 
 ## Documentation and resources
 
@@ -49,22 +49,22 @@ $ git clone https://github.com/ISUrobotics/SnowPlow25/
 Repository to be cloned directly to the Jetson Nano on the autonomous Snow Plow Project
 In the event of a catastrophic failure and a complete re-install is nessecary, see:
 
-- [Reinstall](./Docs/reinstall.MD)
+- [Reinstall](./docs/reinstall.MD)
 
 For General Operating Procedures, see:
-- [Operating Procedure](./Docs/operating.MD)
+- [Operating Procedure](./docs/operating.MD)
 
 For Pathing, see:
-- [Pathing](./Docs/pathing.MD)
+- [Pathing](./docs/pathing.MD)
 
 For Lidar, see:
-- [Lidar](./Docs/lidar.MD)
+- [Lidar](./docs/lidar.MD)
 
 For module GPS, see:
-- [Global Positioning System](./Docs/GPS.MD)
+- [Global Positioning System](./docs/GPS.MD)
 
 For module IMU, see:
-- [Inertial Measurement Unit](./Docs/IMU.MD)
+- [Inertial Measurement Unit](./docs/IMU.MD)
 
 ## Releases
 
