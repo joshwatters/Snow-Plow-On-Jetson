@@ -19,13 +19,13 @@ Vision Systems:
 
 Sick Lidar w/ imu
 - [Getting Started with the Sick 511 Video Series](https://support.sick.com/sick-knowledgebase/article/?code=KA-09385)
-- [Lidar](/Docs/lidar.MD)
+- [Lidar](/docs/lidar.MD)
 
 Slam Toolbox
-- [Slam](/Docs/slam.MD)
+- [Slam](/docs/slam.MD)
 
 Nav 2
-- [Nav 2](/Docs/nav2.MD)
+- [Nav 2](/docs/nav2.MD)
 
 
 Path Planning:
@@ -43,4 +43,4 @@ Moving forward it likely makes sense to use MCAP and transition any existing Ros
 
 Upon successful installation, continue to :
 
-- [Operating Procedure](/Docs/operating.MD)
+- [Operating Procedure](/docs/operating.MD)
