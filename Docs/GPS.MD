@@ -18,6 +18,7 @@ Our implementation:
 - [GPS_Node.py](../src/GPS_Node.py)
 - More notes in the script comments
 
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
 
 The last communication from the previous team in issue #30 indicates: We have made some improvements to the GPS since last competition, but there's still more stuff we could experiment with. Maybe we could make the GPS extrapolate our position in between data packets? That way, if we drop a few when moving, the robot can still make a good estimate of when it's reached the end of a movement action.
 
