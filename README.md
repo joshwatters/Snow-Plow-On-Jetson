@@ -33,11 +33,11 @@ Project Overview:
 If you have GIT configured, quickly deploy using `cmd`:
 
 ```bash
-git clone https://github.com/ISURobotics/SnowPlow25/
+git clone https://github.com/ISURobotics/SnowPlowComplete/
 ```
 
 ```bash
-$ git clone https://github.com/ISUrobotics/SnowPlow25/
+$ git clone https://github.com/ISUrobotics/SnowPlowComplete/
 > Cloning into `Folder`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
