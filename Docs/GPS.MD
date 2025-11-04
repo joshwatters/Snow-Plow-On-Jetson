@@ -1,7 +1,7 @@
 # Autonomous Snowplow - GPS
 ## About GPS
 
-# At a glance:
+## At a glance:
 
 This is actual footage from our gps running on windows. On linux we read the data from python.
 
@@ -13,15 +13,15 @@ Reading from serial in python looks like this:
 
 - [gps.py](.gps.py)
 
-#The GPS used for this project is:
+## The GPS used for this project is:
 
 - [Product Specs](https://www.sparkfun.com/sparkfun-gps-rtk-sma-kit.html)
 
-#There are provided code examples:
+## There are provided code examples:
 
 - [GPS Hookup Guide](https://learn.sparkfun.com/tutorials/gps-rtk2-hookup-guide)
 
-#The wiring diagram shows a cell phone. This explains why.
+## The wiring diagram shows a cell phone. This explains why.
 
 - [Connect to a Correction Source](https://learn.sparkfun.com/tutorials/gps-rtk2-hookup-guide/connecting-the-zed-f9p-to-a-correction-source)
 
@@ -29,11 +29,11 @@ Reading from serial in python looks like this:
 
 - [GPS info](http://monitor.use-snip.com/?hostUrl=rtk2go.com&port=2101)
 
-#Data Sheet:
+## Data Sheet:
 
 - [Datasheet](./ZED-F9P-02B_DataSheet_UBX-21023276.pdf)
 
-#Our implementation:
+## Our implementation:
 
 - [Schematic](./SparkFun-GPS-RTK-SMA-ZED-F9P-Schematic.pdf)
 
