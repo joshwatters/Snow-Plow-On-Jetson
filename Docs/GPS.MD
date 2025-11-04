@@ -4,6 +4,7 @@
 # At a glance:
 
 <img src="./GPSGIF.gif" width="720" height="486" />
+
 - [Sample Output Text](../src/SampleOutput.txt)
 
 Reading from serial in python looks like this:
@@ -17,8 +18,11 @@ There are provided code examples:
 The wiring diagram shows a cell phone. This explains why.
 
 - [Connect to a Correction Source](https://learn.sparkfun.com/tutorials/gps-rtk2-hookup-guide/connecting-the-zed-f9p-to-a-correction-source)
+
 - [Setting up RTK2GO](http://rtk2go.com/how-to-connect/)
+
 - [GPS info](http://monitor.use-snip.com/?hostUrl=rtk2go.com&port=2101)
+
 Data Sheet:
 - [Datasheet](./ZED-F9P-02B_DataSheet_UBX-21023276.pdf)
 
