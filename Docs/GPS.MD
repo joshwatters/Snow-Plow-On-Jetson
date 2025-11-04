@@ -21,7 +21,7 @@ Reading from serial in python looks like this:
 
 - [GPS Hookup Guide](https://learn.sparkfun.com/tutorials/gps-rtk2-hookup-guide)
 
-### The wiring diagram shows a cell phone. This explains why.
+### The wiring diagram shows a cell phone. For more info:
 
 - [Connect to a Correction Source](https://learn.sparkfun.com/tutorials/gps-rtk2-hookup-guide/connecting-the-zed-f9p-to-a-correction-source)
 
