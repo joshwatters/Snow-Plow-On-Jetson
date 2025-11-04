@@ -31,6 +31,11 @@ Project Overview:
 ## Usage
 
 If you have GIT configured, quickly deploy using `cmd`:
+```bash
+cd /Home/
+mkdir Sandbox
+cd /Sandbox/
+```
 
 ```bash
 git clone https://github.com/ISURobotics/SnowPlowComplete/
