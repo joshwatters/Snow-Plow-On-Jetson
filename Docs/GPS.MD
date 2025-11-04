@@ -8,11 +8,15 @@
 - [Sample Output Text](../src/SampleOutput.txt)
 
 Reading from serial in python looks like this:
+
 - [gps.py](.gps.py)
+
 The GPS used for this project is:
+
 - [Product Specs](https://www.sparkfun.com/sparkfun-gps-rtk-sma-kit.html)
 
 There are provided code examples:
+
 - [GPS Hookup Guide](https://learn.sparkfun.com/tutorials/gps-rtk2-hookup-guide)
 
 The wiring diagram shows a cell phone. This explains why.
@@ -24,15 +28,21 @@ The wiring diagram shows a cell phone. This explains why.
 - [GPS info](http://monitor.use-snip.com/?hostUrl=rtk2go.com&port=2101)
 
 Data Sheet:
+
 - [Datasheet](./ZED-F9P-02B_DataSheet_UBX-21023276.pdf)
 
 Our implementation:
+
 - [Schematic](./SparkFun-GPS-RTK-SMA-ZED-F9P-Schematic.pdf)
 
 Our implementation:
+
 - [RobotGPS.py](../src/RobotGPS.py)
+
 - [GPS_Node.py](../src/GPS_Node.py)
+
 - More notes in the script comments
+
 
 There are several methods of configuration for the RTK setup. One Zed-f9p is located on the snow plow. Real time kinematics involves an additional stationary gps base station that feeds correction data. This improves the accuracy to a point it is useable for competition.
 
