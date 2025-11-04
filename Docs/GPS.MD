@@ -25,7 +25,7 @@ The last communication from the previous team in issue #30 indicates: We have ma
 We are reaching out to the last team as of 11/2/25 to see if we can get clarification on the previous message and the best working configuration. Once recieved we will update this location of the docs and the wiring diagram with the final gps configuration. There are several methods of configuration for the RTK setup. One Zed-f9p is located on the snow plow. Real time kinematics involves an additional stationary gps base station that feeds correction data. This improves the accuracy to a point it is useable for competition. There is some old documentation that makes it difficult to know what the most recent configuration of wiring is.
 
 
-- [gps.py](../src/gps.py)
+- [gps.py](.gps.py)
 - [Sample Output Text](../src/SampleOutput.txt)
 
 The wiring diagram shows a cell phone. 
