@@ -16,10 +16,12 @@ Project Overview:
 ## Documentation and resources
 
   Documentation for implementation of Isaac Lab can be found at:
-  https://docs.isaacsim.omniverse.nvidia.com/latest/installation/quick-install.html
+  
+  - [Isaac Sim](https://docs.isaacsim.omniverse.nvidia.com/latest/installation/quick-install.html)
   
   While documentation for standard Isaac Sim can be seen at:
-  https://docs.isaacsim.omniverse.nvidia.com/latest/robot_simulation/index.html
+  
+  - [Isaac Lab](https://docs.isaacsim.omniverse.nvidia.com/latest/robot_simulation/index.html)
   
 ## Snow Plow features
 
