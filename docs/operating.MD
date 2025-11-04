@@ -1,44 +1,7 @@
-## Replacement process as of 11/1/25
+To do:
 
-```initplow``` : executes [Init.py](./RobotGPS.py) sources ROS2, ROS2 lidar, Hector SLAM, and rosserial for arduino communication.
-
-```startplow``` : executes [main.py](./src/main.py).
-
-```runplow``` : executes the above 2 functions in sequence, initializes then starts the plow's movement.
-
-```stopplow``` : ```pkill``` all the processes spawned by the above scripts.
-
-## To run SICK-LMS-511 with ROS and jetson nano:  
-1. ensure Jetson connection to router via ethernet with DHCP, disable Jetson wifi
-2. cd into catkin_ws  
-3. ```source install/setup.bash```  
-4. ```ros2 launch sick_scan sick_lms_5xx.launch hostname:=192.168.1.2``` (IP may change - set IP with SOPAS-ET for Windows)  
-5. ```rviz rviz``` to open the rviz visualizer for the data  
-
-## Hector SLAM testing:  
-1. cd into catkin_ws  
-2. ```source install/setup.bash```  
-3. ```ros2 launch sick_scan test_005_hector.launch hostname:=192.168.1.2```  
-4. rviz will open. Select Global Options > Fixed Frame > laser_POS_000_DIST (May take some time to appear)  
-5. ```rostopic echo /slam_out_pose``` (for best robot position and orientation info. Also may take some time)
-7. ```rostopic echo /scan``` (for a nice array of distances to objects for each half degree)  
-
-## General Notes:  
-Using map for localization  
-Check live data (/scan) for actual current obstacles  
-
-ros_numpy geometry: https://github.com/eric-wieser/ros_numpy/blob/master/src/ros_numpy/geometry.py  
-
-To change which git user is used on the nano:  
-```git config user.email "you@example.com"```  
-```git config user.name "Your Name"```  
-Remember to update ssh keys as well  
-
-Lidar IPs:  
-SICK LMS511: 192.168.1.2  
-SICK TiM551: 192.168.1.3
-
-To do: https://docs.ros.org/en/humble/Tutorials/Intermediate/Launch/Creating-Launch-Files.html
-
-Last communication from previous team is: We have the shell script that launches all the processes we need normally, but a ROS launch file is the "correct" way to do this. Once we have this , we should be able to run "ros2 launch SnowPlow2021" and everything will start.
-
+1. Ensure static device addresses for the lidar and arduinos.
+2. Ensure proper readings from each sensor: IMU, GPS, Lidar and digital compass.
+3. Hard code the location into the python serial read logic sick_scan_xd.py files
+4. Adapt the working python files to integrate with the data read from serial and ethernet in the existing python logic.
+5. Double back to rostopics for data logging if time permits.
