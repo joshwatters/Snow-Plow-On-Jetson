@@ -11,15 +11,17 @@ Previous Design:
 - [Previous Design](https://www.youtube.com/watch?v=uQ3A9CB2F4g)
 
 Project Overview: 
-- [Project Overview](./Docs/Overview.MD)
+- [Project Overview](./docs/Overview.MD)
 
 ## Documentation and resources
 
   Documentation for implementation of Isaac Lab can be found at:
-  https://docs.isaacsim.omniverse.nvidia.com/latest/installation/quick-install.html
+  
+  - [Isaac Sim](https://docs.isaacsim.omniverse.nvidia.com/latest/installation/quick-install.html)
   
   While documentation for standard Isaac Sim can be seen at:
-  https://docs.isaacsim.omniverse.nvidia.com/latest/robot_simulation/index.html
+  
+  - [Isaac Lab](https://docs.isaacsim.omniverse.nvidia.com/latest/robot_simulation/index.html)
   
 ## Snow Plow features
 
@@ -31,13 +33,18 @@ Project Overview:
 ## Usage
 
 If you have GIT configured, quickly deploy using `cmd`:
-
 ```bash
-git clone https://github.com/ISURobotics/SnowPlow25/
+cd /Home/
+mkdir Sandbox
+cd /Sandbox/
 ```
 
 ```bash
-$ git clone https://github.com/ISUrobotics/SnowPlow25/
+git clone https://github.com/ISURobotics/SnowPlowComplete/
+```
+
+```bash
+$ git clone https://github.com/ISUrobotics/SnowPlowComplete/
 > Cloning into `Folder`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
@@ -49,22 +56,22 @@ $ git clone https://github.com/ISUrobotics/SnowPlow25/
 Repository to be cloned directly to the Jetson Nano on the autonomous Snow Plow Project
 In the event of a catastrophic failure and a complete re-install is nessecary, see:
 
-- [Reinstall](./Docs/reinstall.MD)
+- [Reinstall](./docs/reinstall.MD)
 
 For General Operating Procedures, see:
-- [Operating Procedure](./Docs/operating.MD)
+- [Operating Procedure](./docs/operating.MD)
 
 For Pathing, see:
-- [Pathing](./Docs/pathing.MD)
+- [Pathing](./docs/pathing.MD)
 
 For Lidar, see:
-- [Lidar](./Docs/lidar.MD)
+- [Lidar](./docs/lidar.MD)
 
 For module GPS, see:
-- [Global Positioning System](./Docs/GPS.MD)
+- [Global Positioning System](./docs/GPS.MD)
 
 For module IMU, see:
-- [Inertial Measurement Unit](./Docs/IMU.MD)
+- [Inertial Measurement Unit](./docs/IMU.MD)
 
 ## Releases
 
