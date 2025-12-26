@@ -96,6 +96,11 @@ sick scan xd
 sick_generic_caller
 sick_scan_xd_test.launch
 
+
+
+
+
+
 Chasing the import statements, these appear to be the most relevant files and should NOT be deleted. Most functionality takes place in the src folder 
 
 main.py imports:
