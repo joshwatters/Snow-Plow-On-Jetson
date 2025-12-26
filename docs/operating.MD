@@ -53,14 +53,22 @@ python3 src/main.py
 
 
 // There was a section after this for hector slam but hector slam is deprecated in humble.
+
 // Alternatives are: rtabmap and cartographer. We may be able to look at Nav2 after competition.
+
 // Any file containing hector or slam is obsoleted. They can be removed as they are not used per 
+
 // notes or deprecated in humble. Regarding the other files in the directories. Most functional 
+
 // code is contained in the src or test folders. I am compiling a list of each of the files that are 
-// listed in this guide so that all non-essential files can be moved to the obsolete folder to make it // easier for others to pick up the project and go.
+
+// listed in this guide so that all non-essential files can be moved to the obsolete folder to make it 
+
+// easier for others to pick up the project and go.
 
 
 // This command was previously used but may need to be updated or adapted for Ros 2:
+
 // source /opt/ros/humble/setup.bash roslaunch sick_scan sick_lms_5xx.launch 
 // hostname:=192.168.1.2
 // It is not a current file that is used as far as I can tell but it does show the ip address "flag"
