@@ -19,10 +19,10 @@ Our implementation:
 sudo apt update
 sudo apt-get install ros-humble-sick-scan-xd
 
-####### source the environment
+##### source the environment
 source ./install/setup.bash
 
-####### check the demo
+##### check the demo
 ros2 run sick_scan_ros2_example sick_scan_ros2_example --ros-args -p topics:=sick_tim_5xx
 
 ##### then run a file of your choice
