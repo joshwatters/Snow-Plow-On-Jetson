@@ -42,7 +42,7 @@ python3 src/IMU_Node.py & python3 test/test_mock_gps.py & ros2 run sick_scan_xd 
 
 ##### Running the Main Function:
 
-> [!NOTE] WARNING
+> [!WARNING]
 > WARNING! THIS COMMAND STARTS THE MOTORS.
 
 
