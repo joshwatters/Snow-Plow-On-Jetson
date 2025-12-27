@@ -1,10 +1,7 @@
-
-## Safety
+## Overall Risk Assessment Summary
 E-Stop - (physical and remote) mechanisms stop all power and motion on command, Remote E-Stop is always able to cut power to the robot, Snowplow moves at a safe speed - Vehicle stops within 3 meters of either E-Stop being triggered
 Guidance - Snowplow autonomously follows our planned course Remote E-Stop range ≥ 50 m,  Snowplow speed ≤ 2 m/s, Within 5 inches of our path
 Operation - Robot can operate in the required conditions - The robot can operate in temperatures between 0 and 100 degrees Fahrenheit and in wet/snowy conditions.
-
-## Overall Risk Assessment Summary
 Batteries - Temperature and lack of charge are problematic because the entire system relies on the batteries - Insulating battery box, Charge rotation and frequent checking
 Electronic Components - Failing or malfunctioning components can cause varying degrees of system failure such as electrical shorts, incorrect sensor output, etc. - Surge protectors, Fuses, Power relays, E-Stops
 Navigation System/Software - Errors in the navigation system can cause the snowplow to move in unanticipated directions - E-Stops, Algorithm testing
