@@ -71,7 +71,7 @@ python3 src/main.py
 
 // Any file containing hector or slam is obsoleted. They can be removed as they are not used per 
 
-// notes or deprecated in humble. Regarding the other files in the directories. Most functional 
+// notes and deprecated as of ROS 2 humble release. Regarding the other files in the directories. Most functional 
 
 // code is contained in the src or test folders. I am compiling a list of each of the files that are 
 
