@@ -13,6 +13,9 @@ PicoScan:
 Our implementation:
 - [Lidar.py](../src/Lidar.py)
 
+
+THIS SECTION WILL BE TRIMMED ONCE PATHING LOGIC IS FUNCTIONAL
+
 ### Installation is: 
 
 ```
