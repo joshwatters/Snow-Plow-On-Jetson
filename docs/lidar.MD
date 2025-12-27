@@ -60,7 +60,7 @@ roslaunch sick_scan_xd sick_new_ip.launch hostname:=192.168.0.1 new_IP:=192.168.
 ```
 
 ### Starting with a new lidar
-The lidar is delivered with a standard IP address, to read or change it the SICK SOPAS ET for windows can be used. When the tool is started, a search is performed which lists all scanners available in the network.
+  * The lidar is delivered with a standard IP address, to read or change it the SICK SOPAS ET for windows can be used. When the tool is started, a search is performed which lists all scanners available in the network.
 
   * SOPAS start
 
@@ -89,23 +89,23 @@ the connection can be successfully established
 
 
 ### Build on Linux generic without ROS
-  * Run the following steps to build sick_scan_xd on Linux (no ROS required):
+Run the following steps to build sick_scan_xd on Linux (no ROS required):
 
-  * Create a workspace folder, e.g. sick_scan_ws (or any other name):
+Create a workspace folder, e.g. sick_scan_ws (or any other name):
 
 ```
 mkdir -p ./sick_scan_ws
 cd ./sick_scan_ws
 ```
 
-  * Clone repositories https://github.com/SICKAG/libsick_ldmrs and https://github.com/SICKAG/sick_scan_xd :
+Clone repositories https://github.com/SICKAG/libsick_ldmrs and https://github.com/SICKAG/sick_scan_xd :
 
 ```
 git clone https://github.com/SICKAG/libsick_ldmrs.git
 git clone -b master https://github.com/SICKAG/sick_scan_xd.git
 ```
 
-  * Build libsick_ldmrs (required only once for LD-MRS sensors):
+Build libsick_ldmrs (required only once for LD-MRS sensors):
 
 ```
 pushd libsick_ldmrs
@@ -117,7 +117,7 @@ sudo make -j4 install
 popd
 ```
 
-  * Build sick_generic_caller and libsick_scan_xd_shared_lib.so:
+Build sick_generic_caller and libsick_scan_xd_shared_lib.so:
 
 ```
 mkdir -p ./build
@@ -131,7 +131,7 @@ popd
 ```
 
 
-  * Continue to Operating Procedure
+Continue to Operating Procedure
 - [Operating Procedure](../docs/operating.MD)
 
 The last communication from the previous team is this: 
