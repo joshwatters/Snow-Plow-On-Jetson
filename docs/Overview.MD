@@ -13,9 +13,17 @@ Navigation System/Software - Errors in the navigation system can cause the snowp
 ## Plowing Strategy:
 “T” Snowfield
 
-LiDAR scan for cones
-Start with "ideal route"
-Use pathfinding algorithms to adjust the path and avoid cones
+## Sensors
+* GPS RTK (New this year!)
+* Precise translational positioning
+* Adafruit BNO055 9-Axis IMU
+* Gyroscope and magnetometer track rotation
+* SICK 2D LiDAR 
+  * Detects cones at the start of the run
+  * Dijkstra's Algorithm
+  * Start with a set of nodes we want to visit
+  * Use Dijkstra's algorithm to find paths from one node to the next, avoiding cones
+  * Squares with snow in them have lower weights than other squares
 
 
 ## Size & Weight Dimensions:
@@ -52,19 +60,6 @@ Components mounted with screws/3M™ Dual Lock™
 Electrical connections made with Anderson Power poles, lug terminals, and screw terminals.
 Cable glands used for wiring to inside of box
 3D printed brackets for mounting some components
-
-## Sensors
-GPS RTK (New this year!)
-Precise translational positioning
-Adafruit BNO055 9-Axis IMU
-Gyroscope and magnetometer track rotation
-
-### SICK 2D LiDAR 
-Detects cones at the start of the run
-Dijkstra's Algorithm
-Start with a set of nodes we want to visit
-Use Dijkstra's algorithm to find paths from one node to the next, avoiding cones
-Squares with snow in them have lower weights than other squares
 
 ## Jetson Nano Orin
 Runs JetpackOS and ROS 2
