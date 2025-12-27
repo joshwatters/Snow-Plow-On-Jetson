@@ -1,5 +1,6 @@
 
-## Safety - E-Stop (physical and remote) mechanisms stop all power and motion on command, Remote E-Stop is always able to cut power to the robot, Snowplow moves at a safe speed - Vehicle stops within 3 meters of either E-Stop being triggered
+## Safety
+E-Stop - (physical and remote) mechanisms stop all power and motion on command, Remote E-Stop is always able to cut power to the robot, Snowplow moves at a safe speed - Vehicle stops within 3 meters of either E-Stop being triggered
 Guidance - Snowplow autonomously follows our planned course Remote E-Stop range ≥ 50 m,  Snowplow speed ≤ 2 m/s, Within 5 inches of our path
 Operation - Robot can operate in the required conditions - The robot can operate in temperatures between 0 and 100 degrees Fahrenheit and in wet/snowy conditions.
 
@@ -52,12 +53,13 @@ Electrical connections made with Anderson Power poles, lug terminals, and screw 
 Cable glands used for wiring to inside of box
 3D printed brackets for mounting some components
 
-## GPS RTK (New this year!)
+## Sensors
+GPS RTK (New this year!)
 Precise translational positioning
 Adafruit BNO055 9-Axis IMU
 Gyroscope and magnetometer track rotation
 
-## SICK 2D LiDAR 
+### SICK 2D LiDAR 
 Detects cones at the start of the run
 Dijkstra's Algorithm
 Start with a set of nodes we want to visit
