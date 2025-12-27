@@ -95,14 +95,18 @@ Run the following steps to build sick_scan_xd on Linux (no ROS required):
 
 Create a workspace folder, e.g. sick_scan_ws (or any other name):
 
+```
 mkdir -p ./sick_scan_ws
 cd ./sick_scan_ws
 Clone repositories https://github.com/SICKAG/libsick_ldmrs and https://github.com/SICKAG/sick_scan_xd :
+
 ```
 git clone https://github.com/SICKAG/libsick_ldmrs.git
 git clone -b master https://github.com/SICKAG/sick_scan_xd.git
 ```
+
 Build libsick_ldmrs (required only once for LD-MRS sensors):
+
 ```
 pushd libsick_ldmrs
 mkdir -p ./build
@@ -112,7 +116,9 @@ make -j4
 sudo make -j4 install
 popd
 ```
+
 Build sick_generic_caller and libsick_scan_xd_shared_lib.so:
+
 ```
 mkdir -p ./build
 pushd ./build
