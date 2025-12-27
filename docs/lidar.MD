@@ -34,8 +34,27 @@ source ./install/setup.bash
 # then
 ros2 service list
 ros2 topic list
+
+
+```
+For Linux without ROS: Use the sick_scan_xd API and run sick_scan_xd_api_test <launchfile> hostname:=<lidar-ip-address>, e.g.:
+```
+cd ./sick_scan_ws
+export LD_LIBRARY_PATH=.:`pwd`/build:$LD_LIBRARY_PATH  # append absolute path to the build folder
+./build/sick_scan_xd_api_test ./sick_scan_xd/launch/sick_tim_7xx.launch hostname:=192.168.0.1
 ```
 
+For Linux with ROS 2: Run ros2 launch sick_scan_xd <launchfile> hostname:=<lidar-ip-address>, e.g.:
+
+
+```
+cd ./sick_scan_ws
+source ./install/setup.bash
+ros2 launch sick_scan_xd sick_tim_7xx.launch.py hostname:=192.168.0.1
+```
+
+
+* Continue to Operating Procedure
 - [Operating Procedure](../docs/operating.MD)
 
 The last communication from the previous team is this: 
