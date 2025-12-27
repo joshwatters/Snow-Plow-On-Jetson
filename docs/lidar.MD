@@ -36,6 +36,8 @@ ros2 service list
 ros2 topic list
 ```
 
+- [Operating Procedure](../docs/operating.MD)
+
 The last communication from the previous team is this: 
 
 So, right at the end of the spring 2025 semester, the Jetson's filesystem got corrupted, and we had to reflash the operating system. I reinstalled all the existing packages and copied the entirely of the old /home directory over to the new filesystem (which includes the colcon workspace and stuff like the contents of the .bash_history and .bashrc files), but some stuff still isn't working. Specifically, the Jetson does not want to talk to the Lidar, and we're not sure what we're missing.
