@@ -9,9 +9,11 @@ sick_scan_xd sick_generic_caller sick_scan_xd_test.launch
 
 Before running Any command in ROS2 you must source the environment. If the environment is not sourced. You can source it on humble by running:
 
+
 ```
 source /opt/ros/humble/setup.bash
 ```
+
 
 ##### Start the robot with dummy GPS data 
 (Use this in Assembly Bay with IMU and Lidar connected)
@@ -29,16 +31,21 @@ source /opt/ros/humble/setup.bash
 
 // be run after sourcing the ROS2 environment and launching the Sick scan.
 
+
+
 ```
 python3 src/IMU_Node.py & python3 test/test_mock_gps.py & ros2 run sick_scan_xd sick_generic_caller sick_scan_xd_test.launch
 ```
 
+
 ##### Running In Operational Mode with Movement:
 (Before running the main function, we need to start sick_scan_xd, Arduino_Node, and GPS_Node)
- 
+
+
  ```
 python3 src/IMU_Node.py & python3 test/test_mock_gps.py & ros2 run sick_scan_xd sick_generic_caller sick_scan_xd_test.launch
  ```
+
 
 ##### Running the Main Function:
 
@@ -51,6 +58,7 @@ Start the robot with actual GPS, IMU and LIDAR attached and clear view of the sk
 
 This function will initialize the robot and lidar, create the object map with lidar data,
 and begin motion of the robot:
+
 
 ```
 python3 src/main.py
