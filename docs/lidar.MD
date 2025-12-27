@@ -53,8 +53,79 @@ source ./install/setup.bash
 ros2 launch sick_scan_xd sick_tim_7xx.launch.py hostname:=192.168.0.1
 ```
 
+Change IP address
+The IP address of the device can be changed with a customized launch file. The following launch sequence is an example: 
 
-* Continue to Operating Procedure
+
+```
+roslaunch sick_scan_xd sick_new_ip.launch hostname:=192.168.0.1 new_IP:=192.168.0.100
+```
+
+Starting with a new lidar
+The lidar is delivered with a standard IP address, to read or change it the SICK SOPAS ET for windows can be used. When the tool is started, a search is performed which lists all scanners available in the network.
+
+SOPAS start
+
+Double-click to select the scanner for the project
+
+SOPAS select
+
+Double click on the lidar icon to open the configuration menu of the scanner. Select here the network configuration menu and set the parameters by clicking on the save icon (red arrow)
+
+SOPAS save network
+
+To ensure that the settings are stored even after a power cycle, they must be stored in the eeprom. To do this, click on the eeprom icon and confirm the save.
+
+SOPAS save eeprom
+
+To test the settings under Windows use the commands ipconfig and ping in the cmd.exe. Make sure that the lidar and host pc have different IP addresses e.g. 192.168.0.1 for the pc and 192.168.0.2 for the scanner.
+
+to test the settings under the Linux target system you can use netcat to check if a TCP connection to the scanner can be established 
+
+```
+nc -z -v -w5 $SCANNERIPADDRESS 2112 
+```
+
+the connection can be successfully established
+
+
+
+Build on Linux generic without ROS
+Run the following steps to build sick_scan_xd on Linux (no ROS required):
+
+Create a workspace folder, e.g. sick_scan_ws (or any other name):
+
+mkdir -p ./sick_scan_ws
+cd ./sick_scan_ws
+Clone repositories https://github.com/SICKAG/libsick_ldmrs and https://github.com/SICKAG/sick_scan_xd :
+```
+git clone https://github.com/SICKAG/libsick_ldmrs.git
+git clone -b master https://github.com/SICKAG/sick_scan_xd.git
+```
+Build libsick_ldmrs (required only once for LD-MRS sensors):
+```
+pushd libsick_ldmrs
+mkdir -p ./build
+cd ./build
+cmake -G "Unix Makefiles" ..
+make -j4
+sudo make -j4 install
+popd
+```
+Build sick_generic_caller and libsick_scan_xd_shared_lib.so:
+```
+mkdir -p ./build
+pushd ./build
+rm -rf ./*
+export ROS_VERSION=0
+cmake -DROS_VERSION=0 -G "Unix Makefiles" ../sick_scan_xd
+make -j4
+sudo make -j4 install
+popd
+```
+
+
+Continue to Operating Procedure
 - [Operating Procedure](../docs/operating.MD)
 
 The last communication from the previous team is this: 
