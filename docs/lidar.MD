@@ -98,6 +98,8 @@ Create a workspace folder, e.g. sick_scan_ws (or any other name):
 ```
 mkdir -p ./sick_scan_ws
 cd ./sick_scan_ws
+```
+
 Clone repositories https://github.com/SICKAG/libsick_ldmrs and https://github.com/SICKAG/sick_scan_xd :
 
 ```
