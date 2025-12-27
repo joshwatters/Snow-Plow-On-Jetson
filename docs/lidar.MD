@@ -13,8 +13,8 @@ PicoScan:
 Our implementation:
 - [Lidar.py](../src/Lidar.py)
 
-Our implementation:
-- [Lidar Installation](../src/LidarInstallation.MD)
+Lidar Installation and Operation:
+- [Lidar Installation](https://docs.ros.org/en/humble/p/sick_scan_xd/)
 
 
 THE BELOW SECTION WILL BE TRIMMED ONCE PATHING LOGIC IS FUNCTIONAL
