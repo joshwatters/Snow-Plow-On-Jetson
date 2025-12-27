@@ -34,8 +34,6 @@ source ./install/setup.bash
 # then
 ros2 service list
 ros2 topic list
-
-
 ```
 For Linux without ROS: Use the sick_scan_xd API and run sick_scan_xd_api_test <launchfile> hostname:=<lidar-ip-address>, e.g.:
 ```
