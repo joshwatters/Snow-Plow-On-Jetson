@@ -53,15 +53,12 @@ python3 src/Arduino_Node.py & python3 src/GPS_Node.py & ros2 run sick_scan_xd
  ```
 
 
-Not sure if we would need this one:
+Not sure if we would need this one. I did not see a note that says for sure if the below is needed:
 
 
 ```
 python3 src/IMU_Node.py
 ```
-
-
-This may be needed as well:
 
 
 ```
