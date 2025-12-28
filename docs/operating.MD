@@ -42,6 +42,14 @@ hostname:=192.168.1.2
 python3 src/IMU_Node.py & python3 test/test_mock_gps.py & ros2 run sick_scan_xd sick_generic_caller sick_scan_xd_test.launch
 ```
 
+##### I need to look further to see which sick file is needed for operational mode.
+This runs:
+src/IMU_Node.py
+test/test_mock_gps.py
+sick scan xd
+sick_generic_caller
+sick_scan_xd_test.launch
+
 
 ##### Running In Operational Mode with Movement:
 (Before running the main function, we need to start sick_scan_xd, Arduino_Node, and GPS_Node)
@@ -98,27 +106,6 @@ To change which git user is used on the nano:
 ```git config user.email "you@example.com"```  
 ```git config user.name "Your Name"```  
 Remember to update ssh keys as well  
-
-Lidar IPs:  
-SICK LMS511: 192.168.1.2  
-SICK TiM551: 192.168.1.3
-
-
-
-run_ros2.sh
-// Executes the following
-python3 src/IMU_Node.py & python3 test/test_mock_gps.py & python3 src/main.py & ros2 run sick_scan_xd sick_generic_caller sick_scan_xd_test.launch
-
-
-This runs:
-sick scan xd
-sick_generic_caller
-sick_scan_xd_test.launch
-
-
-
-
-
 
 Chasing the import statements, these appear to be the most relevant files and should NOT be deleted. Most functionality takes place in the src folder 
 
