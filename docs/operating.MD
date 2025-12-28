@@ -24,19 +24,6 @@ hostname:=192.168.1.2
 (Use this in Assembly Bay with IMU and Lidar connected)
 (This would be a good pre-flight check or for testing):
 
-// I think this is what we need. The scripts names are update in this command from the original 
-
-// file. I had to guess which to use. I chose the ones that instantiate the class for each 
-
-// sensor. The src folder has several files with similar names but there is only one IMU file. 
-
-// That IMU file starts with defining IMU class. The other file I reference is the one for the 
-
-// GPS that defines the class GPS. This makes the most sense to me as a startup process to 
-
-// be run after sourcing the ROS2 environment and launching the Sick scan.
-
-
 
 ```
 python3 src/IMU_Node.py & python3 test/test_mock_gps.py & ros2 run sick_scan_xd sick_generic_caller sick_scan_xd_test.launch
@@ -52,15 +39,34 @@ sick_scan_xd_test.launch
 
 
 ##### Running In Operational Mode with Movement:
+
+Python Comment Indicates:
 (Before running the main function, we need to start sick_scan_xd, Arduino_Node, and GPS_Node)
+The below command should do that.
 
 > [!WARNING]
 > WARNING! THIS COMMAND STARTS THE MOTORS.
 
 
  ```
-python3 src/IMU_Node.py & python3 src/GPS_Node.py & ros2 run sick_scan_xd sick_generic_caller sick_scan_xd_test.launch
+python3 src/Arduino_Node.py & python3 src/GPS_Node.py & ros2 run sick_scan_xd
  ```
+
+
+Not sure if we would need this one:
+
+
+```
+python3 src/IMU_Node.py
+```
+
+
+This may be needed as well:
+
+
+```
+sick_generic_caller sick_scan_xd_test.launch
+```
 
 
 Start the robot with actual GPS, IMU and LIDAR attached and clear view of the sky:
