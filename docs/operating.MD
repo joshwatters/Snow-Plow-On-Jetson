@@ -14,6 +14,11 @@ Before running Any command in ROS2 you must source the environment. If the envir
 source /opt/ros/humble/setup.bash
 ```
 
+##### optional flag (may be needed with some commands)
+
+```
+hostname:=192.168.1.2
+```
 
 ##### Start the robot with dummy GPS data 
 (Use this in Assembly Bay with IMU and Lidar connected)
@@ -64,11 +69,7 @@ python3 src/main.py
 
 // There was a section after this for hector slam but hector slam is deprecated in humble.
 
-// Alternatives are: rtabmap and cartographer. We may be able to look at Nav2 after competition.
-
-// Any file containing hector or slam is obsoleted. They can be removed as they are not used per 
-
-// notes and deprecated as of ROS 2 humble release. Regarding the other files in the directories. Most functional 
+// Any file containing hector is obsolete. A humble alternative is Slam Toolbox. Most functional 
 
 // code is contained in the src or test folders. I am compiling a list of each of the files that are 
 
