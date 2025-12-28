@@ -107,70 +107,17 @@ To change which git user is used on the nano:
 ```git config user.name "Your Name"```  
 Remember to update ssh keys as well  
 
-Chasing the import statements, these appear to be the most relevant files and should NOT be deleted. Most functionality takes place in the src folder 
+Chasing the import statements, these appear to be the most relevant files and should NOT be deleted. If it is in the list it is used to run the machine; most functionality takes place in the src folder 
 
-main.py imports:
+main.py imports: Robot, Robot_Mover, Path_Executor, Func_Generator, import Path_Finder, Sensors
 
-from Robot import *
+Robot.py imports: Node, Motor, Sensors
 
-from Robot_Mover import *
+Robot_Mover.py imports: Movement_Threshold, Axes, utils, Robot
 
-from Path_Executor import *
+Path_Executor.py imports: Robot_Mover, Func_Generator
 
-from Func_Generator import *
-
-import Path_Finder
-
-import Sensors
-
-Robot.py imports:
-
-import time
-
-import rclpy
-
-from rclpy.node import Node
-
-from Motor import *
-
-from Sensors import *
-
-import rclpy.topic_endpoint_info
-
-Robot_Mover.py imports:
-
-import time
-
-from Movement_Threshold import Movement_Threshold
-
-import numpy as np
-
-import Axes
-
-import utils
-
-from Robot import Robot
-
-Path_Executor.py imports:
-
-from Robot_Mover import Robot_Mover
-
-Func_Generator.py imports:
-
-from Robot_Mover import Robot_Mover
-
-Path_Finder.py imports:
-
-import pandas as pd
-
-import numpy as np
-
-from queue import PriorityQueue
-
-from matplotlib import pyplot
-
-import time
-
+Path_Finder.py imports: none of our custom scripts
 
 1. Ensure static device addresses for the lidar and arduinos.
 2. Ensure proper readings from each sensor: IMU, GPS, Lidar and digital compass.
