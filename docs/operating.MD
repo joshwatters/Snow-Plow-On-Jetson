@@ -77,9 +77,11 @@ python3 src/main.py
 
 // There was a section after this for hector slam but hector slam is deprecated in humble.
 
-// Any file containing hector is obsolete. A humble alternative is Slam Toolbox. Most functional 
+// Any file containing hector is obsolete. A humble alternative is Slam Toolbox. I am unsure if it is fully 
 
-// code is contained in the src or test folders. I am compiling a list of each of the files that are 
+// implemented. Notes say our correction data is from gps. Our code structure implies we are trying to use slam_toolbox with ROS. 
+
+// Most functional code is contained in the src or test folders. I am compiling a list of each of the files that are 
 
 // listed in this guide so that all non-essential files can be moved to the obsolete folder to make it 
 
@@ -118,6 +120,8 @@ Robot_Mover.py imports: Movement_Threshold, Axes, utils, Robot
 Path_Executor.py imports: Robot_Mover, Func_Generator
 
 Path_Finder.py imports: none of our custom scripts
+
+TODO:
 
 1. Ensure static device addresses for the lidar and arduinos.
 2. Ensure proper readings from each sensor: IMU, GPS, Lidar and digital compass.
