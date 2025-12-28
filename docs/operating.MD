@@ -14,7 +14,7 @@ Before running Any command in ROS2 you must source the environment. If the envir
 source /opt/ros/humble/setup.bash
 ```
 
-##### optional flag (may be needed with some commands)
+##### optional flag (may be needed with some sick_scan_xd commands)
 
 ```
 hostname:=192.168.1.2
