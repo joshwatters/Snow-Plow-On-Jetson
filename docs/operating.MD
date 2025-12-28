@@ -41,16 +41,13 @@ python3 src/IMU_Node.py & python3 test/test_mock_gps.py & ros2 run sick_scan_xd 
 ##### Running In Operational Mode with Movement:
 (Before running the main function, we need to start sick_scan_xd, Arduino_Node, and GPS_Node)
 
-
- ```
-python3 src/IMU_Node.py & python3 test/test_mock_gps.py & ros2 run sick_scan_xd sick_generic_caller sick_scan_xd_test.launch
- ```
-
-
-##### Running the Main Function:
-
 > [!WARNING]
 > WARNING! THIS COMMAND STARTS THE MOTORS.
+
+
+ ```
+python3 src/IMU_Node.py & python3 src/GPS_Node.py & ros2 run sick_scan_xd sick_generic_caller sick_scan_xd_test.launch
+ ```
 
 
 Start the robot with actual GPS, IMU and LIDAR attached and clear view of the sky:
