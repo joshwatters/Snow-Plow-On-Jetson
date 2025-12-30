@@ -28,6 +28,7 @@ nc -z -v -w5 192.168.1.2 2112
 
 
 If improperly configured, it will fail with the message Network is unreachable. No progress can be made until this connects.
+
 Error Log Notes:
 
 ################################################
