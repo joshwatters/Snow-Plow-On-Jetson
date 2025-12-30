@@ -20,8 +20,8 @@ To help visualize what is happening:
 
 
 Before the lidar will function, IP configuration must be complete or the Lidar will not be able to recieve packets. The current implementation 
-involves using the sick_scan_xd packages that "publish" data over a ROS2 topic. This is different from the script that is being used to generate the above images. 
-It is in here to show how to parse a packet if the team decides to stray from ROS2. This data is retrieved from the topic and used to map the snowplow to a grid. 
+involves using the sick_scan_xd packages that "publish" data over a ROS2 topic. (This is different from the script that is being used to generate the above images; 
+It is in here to show how to parse a packet if the team decides to stray from ROS2.) This data is retrieved from the topic and used to map the snowplow to a grid. 
 More or less we scan, then generate a map on an x,y and ultimately use Dijkstra's for path planning.
 
 To ensure proper configuration, double check the following items and run the command:
