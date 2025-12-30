@@ -14,6 +14,8 @@ Reading from serial in python looks like this:
 - [gps.py](../src/gps.py)
 - [GPS Output](../src/gps.txt)
 
+Snowplow's implementation is a little more complex. To improve accuracy we use Real Time Kinematics. The normal method seen above recieves longitude and latitude but without thumbnail precision. In adding a second data source we are able to triangulate and further improve the accuracy. This is the reason the Raspberry PI is present. The RPI must be connected to a mobile hotspot on someones phone in order to be able to retrieve the correction data. Additionally one script needs to be run from the desktop. One is for Iowa and one is for Minnesota (competition location). Both scripts access publicly available gps data. Just connect to wifi and run the script.
+
 ### The GPS used for this project is:
 
 - [Product Specs](https://www.sparkfun.com/sparkfun-gps-rtk-sma-kit.html)
