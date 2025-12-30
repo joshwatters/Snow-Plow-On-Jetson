@@ -35,14 +35,11 @@ Error Log Notes:
 
 ERROR parselaunchfileSetParameter(): Tag-Value setting not valid. Use pattern: <tag>:=<value> (e.g hostname:=192.168.0.4) (Check the entry: sick_lms_5xx)
 [ERROR] [1762032728.113831696] [sick_scan_xd]: ## ERROR sick_generic_laser: parseLaunchfileSetParameter() failed, aborting.
-
-################################################
-
 [ERROR] [1762031944.635136624] [sick_scan_xd]: ## ERROR parsing launch file Failed to open file
 Row:0
 Col:0
 
-
+################################################
 
 
 
