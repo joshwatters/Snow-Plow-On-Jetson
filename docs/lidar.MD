@@ -18,9 +18,9 @@ Lidar Installation and Operation:
 
 To help visualize what is happening:
 
-<img src="./Lidar1.PNG" width="720" height="486" />
+<img src="./Lidar1.PNG" width="350" height="300" />
 
-<img src="./Lidar2.PNG" width="720" height="486" />
+<img src="./Lidar2.PNG" width="350" height="300" />
 
 Before the lidar will function, IP configuration must be complete or the Lidar will not be able to recieve packets. The current implementation 
 involves using the sick_scan_xd packages that "publish" data over a ROS2 topic. This data is retrieved from the topic and used to map the snowplow to a grid. From here, Dijkstra's is used for path planning.
