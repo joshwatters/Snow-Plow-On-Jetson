@@ -16,6 +16,31 @@ Our implementation:
 Lidar Installation and Operation:
 - [Lidar Installation](https://docs.ros.org/en/humble/p/sick_scan_xd/)
 
+Before the lidar will function, IP configuration must be complete or the Lidar will not be able to recieve packets. The current implementation 
+involves using the sick_scan_xd packages that "publish" data over a ROS2 topic. This data is retrieved from the topic and used to map the snowplow to a grid. From here, Dijkstra's is used for path planning.
+
+To ensure proper configuration, double check the following items and run the command:
+
+
+```
+nc -z -v -w5 192.168.1.2 2112
+```
+
+
+If improperly configured, it will fail with the message Network is unreachable. No progress can be made until this connects.
+Error Log Notes:
+
+## ERROR parselaunchfileSetParameter(): Tag-Value setting not valid. Use pattern: <tag>:=<value> (e.g hostname:=192.168.0.4) (Check the entry: sick_lms_5xx)
+[ERROR] [1762032728.113831696] [sick_scan_xd]: ## ERROR sick_generic_laser: parseLaunchfileSetParameter() failed, aborting.
+
+[ERROR] [1762031944.635136624] [sick_scan_xd]: ## ERROR parsing launch file Failed to open file
+Row:0
+Col:0
+
+
+
+
+
 
 THE BELOW SECTION WILL BE TRIMMED ONCE PATHING LOGIC IS FUNCTIONAL
 
