@@ -9,7 +9,7 @@ This is actual footage from our gps running on windows. On linux we read the dat
 
 - [Sample Output Text](../src/SampleUCenterLog.txt)
 
-Reading from serial in python looks like this:
+An example of reading from serial in python looks like this:
 
 - [gps.py](../src/gps.py)
 - [GPS Output](../src/gps.txt)
