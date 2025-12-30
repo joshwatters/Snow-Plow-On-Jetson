@@ -3,7 +3,7 @@
 
 ### At a glance:
 
-This is actual footage from our gps running on windows. On linux we read the data from python.
+This is actual footage from our gps running on Windows. On Linux we read the data from python.
 
 <img src="./GPSGIF.gif" width="720" height="486" />
 
@@ -19,7 +19,6 @@ Snowplow's implementation is a little more complex. There are several methods of
 Wifi should be set to:
 Network: Network
 Password: Password
-
 
 ### The GPS used for this project is:
 
@@ -50,13 +49,6 @@ Password: Password
 - [GPS_Node.py](../src/GPS_Node.py)
 
 - More notes in the script comments
-
-
-
-
-
-
-
 
 
 The last communication from the previous team in issue #30 indicates: We have made some improvements to the GPS since last competition, but there's still more stuff we could experiment with. Maybe we could make the GPS extrapolate our position in between data packets? That way, if we drop a few when moving, the robot can still make a good estimate of when it's reached the end of a movement action.
