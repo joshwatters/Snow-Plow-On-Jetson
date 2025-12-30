@@ -14,7 +14,12 @@ An example of reading from serial in python looks like this:
 - [gps.py](../src/gps.py)
 - [GPS Output](../src/gps.txt)
 
-Snowplow's implementation is a little more complex. To improve accuracy we use Real Time Kinematics. The normal method seen above recieves longitude and latitude but without thumbnail precision. In adding a second data source we are able to triangulate and further improve the accuracy. This is the reason the Raspberry PI is present. The RPI must be connected to a mobile hotspot on someones phone in order to be able to retrieve the correction data. Additionally one script needs to be run from the desktop. One is for Iowa and one is for Minnesota (competition location). Both scripts access publicly available gps data. Just connect to wifi and run the script.
+Snowplow's implementation is a little more complex. There are several methods of configuration for the Real Time Kinematic setup. One Zed-f9p is located on the snow plow. Real time kinematics involves an additional stationary gps base station that feeds correction data. This improves the accuracy to a point it is useable for competition. The normal method seen above recieves longitude and latitude but without thumbnail precision. In adding a second data source we are able to triangulate and further improve the accuracy. This is the reason the Raspberry PI is present currently. The RPI must be connected to a mobile hotspot on someones phone in order to be able to retrieve the correction data. Additionally one script needs to be run from the desktop. One is for Iowa and one is for Minnesota (competition location). Both scripts access publicly available gps data. Just connect to wifi and run the script. The bluetooth method has been tested but requires an app instead of a wifi hotspot.
+
+Wifi should be set to:
+Network: Network
+Password: Password
+
 
 ### The GPS used for this project is:
 
@@ -36,7 +41,7 @@ Snowplow's implementation is a little more complex. To improve accuracy we use R
 
 - [Datasheet](./ZED-F9P-02B_DataSheet_UBX-21023276.pdf)
 
-### Our implementation:
+### Our implementation and scripts that reference the GPS:
 
 - [Schematic](./SparkFun-GPS-RTK-SMA-ZED-F9P-Schematic.pdf)
 
@@ -47,7 +52,7 @@ Snowplow's implementation is a little more complex. To improve accuracy we use R
 - More notes in the script comments
 
 
-There are several methods of configuration for the RTK setup. One Zed-f9p is located on the snow plow. Real time kinematics involves an additional stationary gps base station that feeds correction data. This improves the accuracy to a point it is useable for competition.
+
 
 
 
