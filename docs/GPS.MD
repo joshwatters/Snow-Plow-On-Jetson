@@ -7,7 +7,13 @@ This is actual footage from our gps running on Windows. On Linux we read the dat
 
 <img src="./GPSGIF.gif" width="720" height="486" />
 
+This is sample output of longitude and latitude.
+
 - [Sample Output Text](../src/SampleUCenterLog.txt)
+
+Future home of example using RTK. Additional data is recieved:
+
+- [UPDATE THIS TO CORRECT FORMAT](../src/SampleUCenterLog.txt)
 
 An example of reading from serial in python looks like this:
 
