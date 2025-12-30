@@ -3,17 +3,8 @@
 
 The lidar used for this project is:
 - [Product Specs](https://www.sick.com/ag/en/products/lidar-and-radar-sensors/lidar-sensors/lms5xx/lms511-10100-pro/p/p215941)
-
-Ros1 and Ros2 Driver:
 - [ROS Driver](https://github.com/SICKAG/sick_scan_xd)
-
-PicoScan:
-- [PicoScan](https://support.sick.com/sick-knowledgebase/article/?code=KA-09379)
-
-Our implementation:
 - [Lidar.py](../src/Lidar.py)
-
-Lidar Installation and Operation:
 - [Lidar Installation](https://docs.ros.org/en/humble/p/sick_scan_xd/)
 
 To help visualize what is happening:
