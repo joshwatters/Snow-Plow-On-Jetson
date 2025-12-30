@@ -9,6 +9,7 @@ The lidar used for this project is:
 
 To help visualize what is happening:
 
+
 * Cartesian:
 
 <img src="./Lidar1.PNG" width="350" height="300" />
